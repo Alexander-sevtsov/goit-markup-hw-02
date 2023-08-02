@@ -102,6 +102,7 @@ button {
 
 .cta-btn {
   color: var(--white, #fff);
+  background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -252,6 +253,7 @@ button {
 
 .menu-btn {
   color: var(--iris, #4d5ae5);
+  background-color: #f4f4fd;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 16px;
