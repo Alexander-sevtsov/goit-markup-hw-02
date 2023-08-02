@@ -10,6 +10,12 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.adress {
+  font-style: normal;
 }
 
 .link {
@@ -27,7 +33,8 @@ button {
 /* /Common styles */
 
 /* Header section */
-.header-logo-web {
+
+.header-logo {
   color: var(--iris);
   font-family: Raleway;
   font-size: 18px;
@@ -38,7 +45,7 @@ button {
   text-transform: uppercase;
 }
 
-.header-logo-studio {
+.header-logo-color {
   color: var(--navyblue, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
@@ -73,6 +80,10 @@ button {
 
 /* Hero section */
 
+.hero-section {
+  background-color: #2e2f42;
+}
+
 .main-title {
   color: var(--white, #fff);
   text-align: center;
@@ -86,6 +97,7 @@ button {
 
 .cta-btn {
   color: var(--white, #fff);
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -94,6 +106,11 @@ button {
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+  background-color: #404bbf;
 }
 
 /*== /Hero section==  */
@@ -137,6 +154,14 @@ button {
 
 /* Team section */
 
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+}
+
 .team-maintitle {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -173,7 +198,7 @@ button {
 
 /* Footer section */
 
-.footer-logo-web {
+.footer-logo {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
@@ -184,7 +209,7 @@ button {
   text-transform: uppercase;
 }
 
-.footer-logo-studio {
+.footer-logo-color {
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
@@ -204,9 +229,22 @@ button {
   letter-spacing: 0.32px;
 }
 
+.footer {
+  background-color: #2e2f42;
+}
+
 /* /Footer section */
 
 /*======== Portfolio page ===== */
+
+/* Header section */
+
+.menu-link-item:hover,
+.menu-link-item:focus {
+  color: #404bbf;
+}
+
+/* /Header section */
 
 /* main section */
 
